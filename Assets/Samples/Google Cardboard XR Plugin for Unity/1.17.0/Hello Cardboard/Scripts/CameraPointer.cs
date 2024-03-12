@@ -24,7 +24,7 @@ using UnityEngine;
 /// </summary>
 public class CameraPointer : MonoBehaviour
 {
-    private const float _maxDistance = 10;
+    private const float _maxDistance = 100000000000000000;
     private GameObject _gazedAtObject = null;
 
     /// <summary>
@@ -42,8 +42,10 @@ public class CameraPointer : MonoBehaviour
             {
                 // New GameObject.
                 _gazedAtObject?.SendMessage("OnPointerExit");
+                print("Sali de objeto");
                 _gazedAtObject = hit.transform.gameObject;
                 _gazedAtObject.SendMessage("OnPointerEnter");
+                print("Entre a un objeto");
             }
         }
         else
@@ -57,6 +59,7 @@ public class CameraPointer : MonoBehaviour
         if (Google.XR.Cardboard.Api.IsTriggerPressed)
         {
             _gazedAtObject?.SendMessage("OnPointerClick");
+            print("Pique");
         }
     }
 }

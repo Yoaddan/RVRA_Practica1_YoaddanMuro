@@ -86,6 +86,7 @@ public class ObjectController : MonoBehaviour
     /// </summary>
     public void OnPointerEnter()
     {
+        print("GazedAt");
         SetMaterial(true);
     }
 
@@ -94,6 +95,7 @@ public class ObjectController : MonoBehaviour
     /// </summary>
     public void OnPointerExit()
     {
+        print("NoLongerGazedAt");
         SetMaterial(false);
     }
 
