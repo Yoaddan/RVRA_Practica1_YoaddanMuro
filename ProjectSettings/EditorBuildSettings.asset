@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.17.0/Hello Cardboard/Scenes/HelloCardboard.unity
     guid: 145a2a45d7bc746b19cb68410368bf96
   - enabled: 1
+    path: Assets/Escenas/Practica5_Yoaddan_Muro.unity
+    guid: 27e5d7ab0cfb3234d8bda81bd5395db7
+  - enabled: 0
     path: Assets/Escenas/Practica4_Yoaddan_Muro.unity
     guid: 0e890e4d7de95d446bbefad2c55cfede
-  - enabled: 1
+  - enabled: 0
     path: Assets/Escenas/Practica2_Yoaddan_Muro.unity
     guid: 177a88c43b0832745845c1b3b0bbc1e3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Escenas/Practica3_Yoaddan_Muro.unity
     guid: 960bcf7e572ab2344a2e582a828db58e
   m_configObjects:
